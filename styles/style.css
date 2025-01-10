@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin: 0px 160px;
+}
+
+nav li {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+
+  font-size: 32px;
+
+  font-weight: 700;
+  margin: 24px 0;
+
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.primary-btn {
+  color: #006a50;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 1px solid #006a50;
+  background: #f5f5f5;
+}
+/* banner-section */
+
+.banner-section {
+  display: flex;
+  border-radius: 24px;
+  background: #c6e4d6;
+  padding: 80px 100px;
+  gap: 64px;
+  margin-bottom: 80px;
+}
+.banner-container p {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: "Fira Sans";
+  font-size: 24px;
+
+  font-weight: 500;
+  margin-top: 24px;
+}
+.banner-container h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.banner-container .btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+  border-radius: 8px;
+  background: #006a50;
+}
+/* main */
+main {
+  margin: 0px 160px;
+}
+/* pillars */
+.pillars-container h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 56px;
+}
+.light-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+.light {
+  display: flex;
+  width: 302px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+/* vission */
+.vission-container{
+    padding:32px;
+}
+.vission-container h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.vission-container p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.card{
+    display:flex;
+    gap:24px;
+    
+    flex-direction: row;
+}
+.card-container1{
+    border-radius: 16px;
+border: 0px solid #5490F5;
+background: rgba(84, 144, 245, 0.20);
+padding:32px;
+}
+.card-container2{
+    border-radius: 16px;
+border: 0px solid #09A15C;
+background: #C6E4D6;
+padding:32px;
+}
+.card-container3{
+    border-radius: 16px;
+border: 0px solid #FFC239;
+background: #F7EBCF;
+padding:24px;
+}
+.card-container h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+
+  font-weight: 700;
+  margin-top:24px;
+}
+.card-container p{
+    margin-bottom:24px;
+    color: rgba(14, 14, 14, 0.70);
+font-family: "Fira Sans";
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.card-btn{
+    color: #FFF;
+font-family: "Fira Sans";
+font-size: 16px;
+padding:11px 20px;
+font-weight: 600;
+border-radius: 8px;
+background: #5490F5;
+
+}
+.card-btn1{
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    padding:11px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #09A15C;
+}
+/* .card-container1{
+    border-radius: 16px;
+border: 0px solid #5490F5;
+background: rgba(84, 144, 245, 0.20);
+padding:32px;
+} */
