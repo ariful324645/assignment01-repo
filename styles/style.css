@@ -5,6 +5,9 @@
 header {
   margin: 0px 160px;
 }
+body{
+    background: #F5F5F5;
+}
 
 nav li {
   color: #0e0e0e;
@@ -68,6 +71,7 @@ nav {
 /* main */
 main {
   margin: 0px 160px;
+  
 }
 /* pillars */
 .pillars-container h3 {
@@ -95,8 +99,8 @@ main {
   background: #fff;
 }
 /* vission */
-.vission-container{
-    padding:32px;
+.vission-container {
+  margin-bottom: 32px;
 }
 .vission-container h3 {
   color: #0e0e0e;
@@ -113,29 +117,30 @@ main {
   font-weight: 400;
   margin-bottom: 32px;
 }
-.card{
-    display:flex;
-    gap:24px;
-    
-    flex-direction: row;
+.card {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+
+  flex-direction: row;
 }
-.card-container1{
-    border-radius: 16px;
-border: 0px solid #5490F5;
-background: rgba(84, 144, 245, 0.20);
-padding:32px;
+.card-container1 {
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+  padding: 32px;
 }
-.card-container2{
-    border-radius: 16px;
-border: 0px solid #09A15C;
-background: #C6E4D6;
-padding:32px;
+.card-container2 {
+  border-radius: 16px;
+  border: 0px solid #09a15c;
+  background: #c6e4d6;
+  padding: 32px;
 }
-.card-container3{
-    border-radius: 16px;
-border: 0px solid #FFC239;
-background: #F7EBCF;
-padding:24px;
+.card-container3 {
+  border-radius: 16px;
+  border: 0px solid #ffc239;
+  background: #f7ebcf;
+  padding: 32px;
 }
 .card-container h4 {
   color: rgba(14, 14, 14, 0.8);
@@ -143,39 +148,123 @@ padding:24px;
   font-size: 20px;
 
   font-weight: 700;
-  margin-top:24px;
+  margin-top: 24px;
 }
-.card-container p{
-    margin-bottom:24px;
-    color: rgba(14, 14, 14, 0.70);
-font-family: "Fira Sans";
-font-size: 16px;
+.card-container p {
+  margin-bottom: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
 
-font-weight: 400;
-
+  font-weight: 400;
 }
-.card-btn{
+.card-btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  padding: 11px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #5490f5;
+}
+.card-btn1 {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  padding: 11px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #09a15c;
+}
+/* pm */
+.younus-sir {
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 30px 24px;
+  margin-bottom: 80px;
+  position: relative;
+}
+.younus-sir p {
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+  font-size: 16px;
+
+  font-weight: 400;
+}
+.quote {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: -1px;
+}
+.younus-sir h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+/* news */
+.news-container h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.news-container p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans";
+  font-size: 16px;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+.satelite-tittle h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 32px;
+  margin-bottom: 12px;
+
+  font-weight: 700;
+}
+.alzajira-pic {
+  width: 134px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+.satalite-img{
+    width: 408px;
+height: 306px;
+border-radius: 24px;
+}
+.paragraph-container {
+  display: flex;
+  justify-content: flex-start;
+  gap:12px;
+  margin-bottom: 12px;
+  
+}
+.news-btn{
     color: #FFF;
 font-family: "Fira Sans";
-font-size: 16px;
-padding:11px 20px;
+font-size: 18px;
 font-weight: 600;
 border-radius: 8px;
-background: #5490F5;
+background: #006A50;
+padding:13px 26px;
+margin-bottom: 32px;
+}
+.satalite-container{
+    display:flex;
+    justify-content: space-around;
+    gap:32px;
+    padding:48px;
+
+border-radius: 24px;
+background:#FFF;
+}
+.satalite-container{
+    margin-bottom: 24px;
 
 }
-.card-btn1{
-    color: #FFF;
-    font-family: "Fira Sans";
-    font-size: 16px;
-    padding:11px 20px;
-    font-weight: 600;
-    border-radius: 8px;
-    background: #09A15C;
-}
-/* .card-container1{
-    border-radius: 16px;
-border: 0px solid #5490F5;
-background: rgba(84, 144, 245, 0.20);
-padding:32px;
-} */
