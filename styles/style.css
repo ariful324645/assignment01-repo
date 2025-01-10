@@ -5,8 +5,8 @@
 header {
   margin: 0px 160px;
 }
-body{
-    background: #F5F5F5;
+body {
+  background: #f5f5f5;
 }
 
 nav li {
@@ -71,7 +71,6 @@ nav {
 /* main */
 main {
   margin: 0px 160px;
-  
 }
 /* pillars */
 .pillars-container h3 {
@@ -206,6 +205,9 @@ main {
   margin-bottom: 4px;
 }
 /* news */
+.news-container {
+  margin-bottom: 80px;
+}
 .news-container h3 {
   color: #0e0e0e;
   font-family: "Fira Sans";
@@ -233,38 +235,126 @@ main {
   height: 40px;
   margin-bottom: 12px;
 }
-.satalite-img{
-    width: 408px;
-height: 306px;
-border-radius: 24px;
+.satalite-img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
 }
 .paragraph-container {
   display: flex;
   justify-content: flex-start;
-  gap:12px;
+  gap: 12px;
   margin-bottom: 12px;
+}
+.news-btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: #006a50;
+  padding: 13px 26px;
+  margin-bottom: 32px;
+}
+.satalite-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  padding: 48px;
+
+  border-radius: 24px;
+  background: #fff;
+}
+.satalite-container {
+  margin-bottom: 24px;
+}
+/* card taka */
+.container-ban {
+}
+.container-ban h3 {
+  color: #0e0e0e;
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.container-ban p {
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.btn-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.card-btn1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+
+  font-weight: 700;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+}
+.card-btn2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #c6e4d6;
+  padding: 40px;
+}
+.card-btn3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 40px;
+}
+.card-btn4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans";
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 40px;
+}
+.input-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 32px;
+ 
+}
+input {
+  margin-bottom: 32px;
+  text-align: center;
+  justify-content: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: 400;
+  width:900px;
+  padding: 10px 40px;
+  border: none;
+
   
-}
-.news-btn{
-    color: #FFF;
-font-family: "Fira Sans";
-font-size: 18px;
-font-weight: 600;
-border-radius: 8px;
-background: #006A50;
-padding:13px 26px;
-margin-bottom: 32px;
-}
-.satalite-container{
-    display:flex;
-    justify-content: space-around;
-    gap:32px;
-    padding:48px;
-
-border-radius: 24px;
-background:#FFF;
-}
-.satalite-container{
-    margin-bottom: 24px;
-
 }
