@@ -415,5 +415,42 @@ align-items: center;
 gap: 48px;
 border-radius: 0px 8px 8px 0px;
 background: #006A50;
+border: none;
 margin-bottom: 24px;
+}
+/* footer */
+.footer1{
+    display: flex;
+padding: 50px 100px;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+background: #FFF;
+}
+.footer1 h3{
+    color: #0E0E0E;
+font-family: "Fira Sans";
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+margin-top: 50px;
+
+
+}
+.footer1 hr{
+    
+    
+    width: 80%;
+
+}
+.icon {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    gap:23px;
+
+}
+.icon li{
+    list-style: none;
 }
