@@ -166,7 +166,7 @@ main {
   font-weight: 600;
   border-radius: 8px;
   background: #5490f5;
-  border:none;
+  border: none;
 }
 .card-btn1 {
   color: #fff;
@@ -257,7 +257,7 @@ main {
   background: #006a50;
   padding: 13px 26px;
   margin-bottom: 32px;
-  border:none;
+  border: none;
 }
 .satalite-container {
   display: flex;
@@ -366,10 +366,10 @@ footer input[type="text"] {
 
 /* /* newsletter */
 .newsletter {
-    border-radius: 24px;
-background: #C6E4D6;
-padding:80px 100px;
-margin-bottom: 80px;
+  border-radius: 24px;
+  background: #c6e4d6;
+  padding: 80px 100px;
+  margin-bottom: 50px;
 }
 .newsletter h3 {
   color: #0e0e0e;
@@ -388,10 +388,9 @@ margin-bottom: 80px;
   margin-bottom: 24px;
 }
 /* button content */
-.button-content{
-    display:flex;
-    margin-left:88px;
-    
+.button-content {
+  display: flex;
+  margin-left: 88px;
 }
 
 footer input[type="email"] {
@@ -401,104 +400,98 @@ footer input[type="email"] {
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  
+
   border-radius: 8px 0px 0px 8px;
   background: #fff;
   border: none;
 }
-.subscriber-btn{
-    color: #FFF;
-font-family: "Fira Sans";
-font-size: 18px;
-font-weight: 600;
-display: flex;
-padding: 14px 34px;
-justify-content: center;
-align-items: center;
-gap: 48px;
-border-radius: 0px 8px 8px 0px;
-background: #006A50;
-border: none;
-margin-bottom: 24px; 
+.subscriber-btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  padding: 14px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  border-radius: 0px 8px 8px 0px;
+  background: #006a50;
+  border: none;
+  margin-bottom: 24px;
 }
 /* footer */
-.footer1{
-    display: flex;
-padding: 50px 100px;
-flex-direction: column;
-align-items: center;
-gap: 32px;
-align-self: stretch;
-background: #FFF;
+.footer1 {
+  display: flex;
+  padding: 40px 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  background: #fff;
 }
-.footer1 h3{
-    color: #0E0E0E;
-font-family: "Fira Sans";
-font-size: 32px;
-font-weight: 700;
-text-align: center;
-margin-top: 50px;
-
-
+.footer1 h3 {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
 }
-.footer1 hr{
-    
-    
-    width: 80%;
-
+.footer1 hr {
+  width: 80%;
 }
 .icon {
-    display: flex;
-    flex-direction:row;
-    justify-content: flex-start;
-    gap:23px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 23px;
 }
-.icon li{
-    list-style: none;
-} 
+.icon li {
+  list-style: none;
+}
 /* done button */
-.done-btn{
-  color: #FFF;
-font-family: "Fira Sans";
-font-size: 18px;
-font-weight: 600;
-padding: 17px 34px;
-gap: 48px;
-border-radius: 8px;
-border: 1px solid rgba(14, 14, 14, 0.10);
-background: #006A50;
+.done-btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+  gap: 48px;
+  border-radius: 8px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  background: #006a50;
 }
-.done-btn-container{
+.done-btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 /* all button hover */
-.done-btn-container .done-btn:hover{
-  background-color:coral;
+.done-btn-container .done-btn:hover {
+  background-color: coral;
 }
-.banner-container .btn:hover{
-  background-color:red;
-}
-.card-btn:hover{
-  background-color: #ffc239;
-}
-.news-btn:hover{
+.banner-container .btn:hover {
   background-color: red;
 }
-.btn-card .card-btn1:hover{
-  background-color: aqua;
-}
-.btn-card .card-btn2:hover{
-  background-color: cadetblue;
-}
-.btn-card .card-btn3:hover{
+.card-btn:hover {
   background-color: #ffc239;
 }
-.btn-card .card-btn4:hover{
+.news-btn:hover {
+  background-color: red;
+}
+.btn-card .card-btn1:hover {
+  background-color: aqua;
+}
+.btn-card .card-btn2:hover {
+  background-color: cadetblue;
+}
+.btn-card .card-btn3:hover {
+  background-color: #ffc239;
+}
+.btn-card .card-btn4:hover {
   background-color: chartreuse;
 }
-.subscriber-btn:hover{
-  background-color:powderblue;
+.subscriber-btn:hover {
+  background-color: powderblue;
 }
