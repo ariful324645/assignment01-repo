@@ -67,6 +67,7 @@ nav {
   padding: 17px 34px;
   border-radius: 8px;
   background: #006a50;
+  border: none;
 }
 /* main */
 main {
@@ -165,6 +166,7 @@ main {
   font-weight: 600;
   border-radius: 8px;
   background: #5490f5;
+  border:none;
 }
 .card-btn1 {
   color: #fff;
@@ -255,6 +257,7 @@ main {
   background: #006a50;
   padding: 13px 26px;
   margin-bottom: 32px;
+  border:none;
 }
 .satalite-container {
   display: flex;
@@ -387,8 +390,8 @@ margin-bottom: 80px;
 /* button content */
 .button-content{
     display:flex;
-    margin-left: 180px;
- 
+    margin-left:88px;
+    
 }
 
 footer input[type="email"] {
@@ -416,7 +419,7 @@ gap: 48px;
 border-radius: 0px 8px 8px 0px;
 background: #006A50;
 border: none;
-margin-bottom: 24px;
+margin-bottom: 24px; 
 }
 /* footer */
 .footer1{
@@ -453,4 +456,49 @@ margin-top: 50px;
 }
 .icon li{
     list-style: none;
+} 
+/* done button */
+.done-btn{
+  color: #FFF;
+font-family: "Fira Sans";
+font-size: 18px;
+font-weight: 600;
+padding: 17px 34px;
+gap: 48px;
+border-radius: 8px;
+border: 1px solid rgba(14, 14, 14, 0.10);
+background: #006A50;
+}
+.done-btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* all button hover */
+.done-btn-container .done-btn:hover{
+  background-color:coral;
+}
+.banner-container .btn:hover{
+  background-color:red;
+}
+.card-btn:hover{
+  background-color: #ffc239;
+}
+.news-btn:hover{
+  background-color: red;
+}
+.btn-card .card-btn1:hover{
+  background-color: aqua;
+}
+.btn-card .card-btn2:hover{
+  background-color: cadetblue;
+}
+.btn-card .card-btn3:hover{
+  background-color: #ffc239;
+}
+.btn-card .card-btn4:hover{
+  background-color: chartreuse;
+}
+.subscriber-btn:hover{
+  background-color:powderblue;
 }
